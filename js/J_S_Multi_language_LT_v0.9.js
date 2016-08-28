@@ -91,33 +91,35 @@ function changeImageByLang(lang_index){
   switch (lang_index) {
 
     case 0:
-        document.getElementById('slideshowImage_title').src = "images/slider_temporary.jpg" ;
-          document.getElementById('slideshowImage_homie').src = "images/slider_example_2.jpg" ;
-          document.getElementById('slideshowImage_hub').src = "images/eql_roomHub.jpg" ;
-          document.getElementById('slideshowImage_pm25').src = "images/eql_pm25.jpg" ;
-          document.getElementById('slideshowImage_purifier').src = "images/eql_air_purifier.jpg" ;
-          document.getElementById('slideshowImage_bp').src = "images/eql_bloodpreasure.jpg" ;
+          document.getElementById('lang_slidetitle').src = "images/slider_temporary.jpg" ;
+          document.getElementById('lang_slidehomie').src = "images/slider_example_2.jpg" ;
+          document.getElementById('lang_slidehub').src = "images/eql_roomHub.jpg" ;
+          document.getElementById('lang_slidepm').src = "images/eql_pm25.jpg" ;
+          document.getElementById('lang_slideair').src = "images/eql_air_purifier.jpg" ;
+          document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure.jpg" ;
           console.log("image is cht");
 
-          break;
+      break;
     case 1:
-          document.getElementById('slideshowImage_title').src = "images/slider_temporary_en.jpg" ;
-          document.getElementById('slideshowImage_homie').src = "images/slider_example_2_en.jpg" ;
-          document.getElementById('slideshowImage_hub').src = "images/eql_roomHub_en.jpg" ;
-          document.getElementById('slideshowImage_pm25').src = "images/eql_pm25_en.jpg" ;
-          document.getElementById('slideshowImage_purifier').src = "images/eql_air_purifier_en.jpg" ;
-          document.getElementById('slideshowImage_bp').src = "images/eql_bloodpreasure_en.jpg" ;
-          console.log("english image now");
-          break;
+        document.getElementById('lang_slidetitle').src = "images/slider_temporary_en.jpg" ;
+        document.getElementById('lang_slidehomie').src = "images/slider_example_2_en.jpg" ;
+        document.getElementById('lang_slidehub').src = "images/eql_roomHub_en.jpg" ;
+        document.getElementById('lang_slidepm').src = "images/eql_pm25_en.jpg" ;
+        document.getElementById('lang_slideair').src = "images/eql_air_purifier_en.jpg" ;
+        document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure_en.jpg" ;
+
+        console.log("english image now");
+      break;
     default:
-          document.getElementById('slideshowImage_title').src = "images/slider_temporary.jpg" ;
-          document.getElementById('slideshowImage_homie').src = "images/slider_example_2.jpg" ;
-          document.getElementById('slideshowImage_hub').src = "images/eql_roomHub.jpg" ;
-          document.getElementById('slideshowImage_pm25').src = "images/eql_pm25.jpg" ;
-          document.getElementById('slideshowImage_purifier').src = "images/eql_air_purifier.jpg" ;
-          document.getElementById('slideshowImage_bp').src = "images/eql_bloodpreasure.jpg" ;
-          console.log("image is default cht");
-          break;
+      document.getElementById('lang_slidetitle').src = "images/slider_temporary.jpg" ;
+      document.getElementById('lang_slidehomie').src = "images/slider_example_2.jpg" ;
+      document.getElementById('lang_slidehub').src = "images/eql_roomHub.jpg" ;
+      document.getElementById('lang_slidepm').src = "images/eql_pm25.jpg" ;
+      document.getElementById('lang_slideair').src = "images/eql_air_purifier.jpg" ;
+      document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure.jpg" ;
+
+      console.log("image is default cht");
+      break;
 
   }
   return;
@@ -263,7 +265,6 @@ function detectUserLang(){
         break;
     }
 }
-
 
 
 
