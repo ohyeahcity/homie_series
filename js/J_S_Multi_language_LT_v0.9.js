@@ -267,6 +267,7 @@ function detectUserLang(){
 
 
 
+
 //=====文字儲存區======
 //多語系body標籤
 Multi_Lang_Tag = new Array();
