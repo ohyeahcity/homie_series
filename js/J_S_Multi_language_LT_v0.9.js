@@ -28,6 +28,8 @@ function chg_lang(lang_index){
       changeCSSTag_Multi_Lang(lang_index);
       //更改Navbar文件
       changeNavBarUIWording(lang_index);
+      //根據語系更改圖片
+      changeImageByLang(lang_index);
 
 
       //讀外部JSON檔案
@@ -165,7 +167,7 @@ function changeAllNavBarUIWording(arr,lang_index){
   document.getElementById('lang_product_light').innerHTML = arr[lang_index].lang_product_light;
   document.getElementById('lang_product_lightcont').innerHTML = arr[lang_index].lang_product_lightcont;
   document.getElementById('lang_product_plug').innerHTML = arr[lang_index].lang_product_plug;
-  
+
 
 
   return;
