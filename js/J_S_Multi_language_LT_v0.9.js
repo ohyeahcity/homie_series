@@ -91,7 +91,7 @@ function changeImageByLang(lang_index){
   switch (lang_index) {
 
     case 0:
-          document.getElementById('slideshowImage_title').src = "images/slider_temporary.jpg" ;
+        document.getElementById('slideshowImage_title').src = "images/slider_temporary.jpg" ;
           document.getElementById('slideshowImage_homie').src = "images/slider_example_2.jpg" ;
           document.getElementById('slideshowImage_hub').src = "images/eql_roomHub.jpg" ;
           document.getElementById('slideshowImage_pm25').src = "images/eql_pm25.jpg" ;
