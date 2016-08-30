@@ -962,7 +962,7 @@ a:hover
     transition: all 0.3s ease;
 }
 
-/* LISTS 
+/* LISTS
 
 ol
 {
@@ -1013,7 +1013,7 @@ ul.circle li:before
 .underlined-title h2
 {
     font-size: 20px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
     color: #95a5a6;
 }
@@ -1992,4 +1992,3 @@ fieldset[disabled] .form-control
 
 
 }
-
