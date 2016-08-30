@@ -184,3 +184,7 @@
 	width:200px;
 	text-align:center;
 }
+
+#lang_product_title h2{
+  font-family: Helvetica, sans-serif, Arial, 'LiHei Pro', '微軟正黑體','新細明體';
+}
