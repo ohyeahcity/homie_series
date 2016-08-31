@@ -94,7 +94,7 @@ function changeNavBarUIWording(lang_index){
   //document.getElementById('lang_btn_1').innerHTML = Multi_Lang_Wording[lang_index];
 
   document.getElementById('change_dropdown_title').innerHTML =  Multi_Lang_Wording[lang_index]+'<b class="caret"></b>';
-
+  console.log("現在已經換好Narbar的語系了");
   return;
 }
 
@@ -228,6 +228,7 @@ function detectUserLang(){
   } else {
     var Previous_Lang_index= getCookie('lang_code');
     auto_chg_lang(Previous_Lang_index);
+    console.log("手動切換語系判斷");
   }
 }
 
