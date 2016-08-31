@@ -108,7 +108,6 @@ function changeImageByLang(lang_index){
     console.log(lang_index);
   if (lang_index==0) {
 
-    case 0:
           document.getElementById('lang_slidetitle').src = "images/slider_temporary.jpg" ;
           document.getElementById('lang_slidehomie').src = "images/slider_example_2.jpg" ;
           document.getElementById('lang_slidehub').src = "images/eql_roomHub.jpg" ;
