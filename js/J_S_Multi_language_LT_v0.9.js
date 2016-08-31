@@ -104,7 +104,7 @@ function changeNavBarUIWording(lang_index){
 //控制圖片中的語系
 function changeImageByLang(lang_index){
 
-    console.log("開始切換語系圖片");
+    //console.log("開始切換語系圖片");
     console.log(lang_index);
   if (lang_index==0) {
 
@@ -114,7 +114,8 @@ function changeImageByLang(lang_index){
           document.getElementById('lang_slidepm').src = "images/eql_pm25.jpg" ;
           document.getElementById('lang_slideair').src = "images/eql_air_purifier.jpg" ;
           document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure.jpg" ;
-          console.log("現在是中文圖片");
+          document.getElementById('lang_homie_title').src = "images/logo_homie_white_ch.png" ;
+          //console.log("現在是中文圖片");
         } else {
 
         document.getElementById('lang_slidetitle').src = "images/slider_temporary_en.jpg" ;
@@ -123,8 +124,9 @@ function changeImageByLang(lang_index){
         document.getElementById('lang_slidepm').src = "images/eql_pm25_en.jpg" ;
         document.getElementById('lang_slideair').src = "images/eql_air_purifier_en.jpg" ;
         document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure_en.jpg" ;
+        document.getElementById('lang_homie_title').src = "images/logo_homie_white_eng.png" ;
 
-        console.log("現在是英文圖片");
+        //console.log("現在是英文圖片");
       }
   /*  default:
       document.getElementById('lang_slidetitle').src = "images/slider_temporary.jpg" ;
@@ -139,7 +141,7 @@ function changeImageByLang(lang_index){
 
 
 
-      console.log("結束切換語系圖片");
+      //console.log("結束切換語系圖片");
       return;
 }
 
