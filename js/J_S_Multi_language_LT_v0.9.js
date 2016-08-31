@@ -105,6 +105,7 @@ function changeNavBarUIWording(lang_index){
 function changeImageByLang(lang_index){
 
     console.log("開始切換語系圖片");
+    console.log(lang_index);
   switch (lang_index) {
 
     case 0:
