@@ -104,7 +104,7 @@ function changeNavBarUIWording(lang_index){
 //控制圖片中的語系
 function changeImageByLang(lang_index){
 
-
+    console.log("開始切換語系圖片");
   switch (lang_index) {
 
     case 0:
@@ -114,7 +114,7 @@ function changeImageByLang(lang_index){
           document.getElementById('lang_slidepm').src = "images/eql_pm25.jpg" ;
           document.getElementById('lang_slideair').src = "images/eql_air_purifier.jpg" ;
           document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure.jpg" ;
-          console.log("image is cht");
+          console.log("現在是中文圖片");
 
       break;
     case 1:
@@ -125,7 +125,7 @@ function changeImageByLang(lang_index){
         document.getElementById('lang_slideair').src = "images/eql_air_purifier_en.jpg" ;
         document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure_en.jpg" ;
 
-        console.log("english image now");
+        console.log("現在是英文圖片");
       break;
     default:
       document.getElementById('lang_slidetitle').src = "images/slider_temporary.jpg" ;
@@ -135,12 +135,12 @@ function changeImageByLang(lang_index){
       document.getElementById('lang_slideair').src = "images/eql_air_purifier.jpg" ;
       document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure.jpg" ;
 
-      console.log("image is default cht");
+      console.log("現在是預設圖片");
       break;
 
   }
   return;
-
+      console.log("結束切換語系圖片");
 }
 
 
