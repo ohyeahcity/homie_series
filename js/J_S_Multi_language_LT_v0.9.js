@@ -137,9 +137,10 @@ function changeImageByLang(lang_index){
       console.log("現在是預設圖片");
       break;*/
 
-  }
-  return;
+
+
       console.log("結束切換語系圖片");
+      return;
 }
 
 
