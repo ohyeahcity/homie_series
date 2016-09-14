@@ -108,23 +108,23 @@ function changeImageByLang(lang_index){
     console.log(lang_index);
   if (lang_index==0) {
 
-          document.getElementById('lang_slidetitle').src = "images/slider_temporary.jpg" ;
+          document.getElementById('lang_slidetitle').src = "images/slider_ripple.jpg" ;
           document.getElementById('lang_slidehomie').src = "images/slider_example_2.jpg" ;
           document.getElementById('lang_slidehub').src = "images/eql_roomHub.jpg" ;
           document.getElementById('lang_slidepm').src = "images/eql_pm25.jpg" ;
           document.getElementById('lang_slideair').src = "images/eql_air_purifier.jpg" ;
           document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure.jpg" ;
-          document.getElementById('lang_homie_title').src = "images/logo_homie_white_ch.png" ;
+          document.getElementById('lang_homie_title').src = "images/logo_ripple_white_ch.png" ;
           //console.log("現在是中文圖片");
         } else {
 
-        document.getElementById('lang_slidetitle').src = "images/slider_temporary_en.jpg" ;
+        document.getElementById('lang_slidetitle').src = "images/slider_ripple_en.jpg" ;
         document.getElementById('lang_slidehomie').src = "images/slider_example_2_en.jpg" ;
         document.getElementById('lang_slidehub').src = "images/eql_roomHub_en.jpg" ;
         document.getElementById('lang_slidepm').src = "images/eql_pm25_en.jpg" ;
         document.getElementById('lang_slideair').src = "images/eql_air_purifier_en.jpg" ;
         document.getElementById('lang_slidepreasure').src = "images/eql_bloodpreasure_en.jpg" ;
-        document.getElementById('lang_homie_title').src = "images/logo_homie_white_eng.png" ;
+        document.getElementById('lang_homie_title').src = "images/logo_ripple_white_eng.png" ;
 
         //console.log("現在是英文圖片");
       }
